@@ -11,7 +11,7 @@
 </head>
 <body class="bg-light">
     <!-- Navegador -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="../logo.png" alt="Logo" width="100" height="100">
@@ -28,7 +28,7 @@
                 <a class="nav-link" href="#">Ofertas</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Categorias
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -44,7 +44,7 @@
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
+              <button class="btn btn-outline-success" id="buton" type="submit">Buscar</button>
             </form>
           </div>
         </div>
@@ -63,7 +63,8 @@
           </div>
         </div>
         <!-- cards productos -->
-        <div class="d-flex justify-content-around">
+        <div class="d-flex justify-content-around" id="media">
+          
           <div class="card" style="width: 18rem;">
             <img src="../img/ofertas/AntitranspiranteDove.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -71,7 +72,9 @@
               <p class="card-text">150 Ml, Go Fresh. Mujer <span class="span">$140,00</span></p>
               <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-          </div>
+            </div>
+        
+          
           <div class="card" style="width: 18rem;">
             <img src="../img/ofertas/Antitranspirantedovemen.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -80,6 +83,8 @@
               <a href="#" class="btn btn-dark">Comprar</a>
             </div>
           </div>
+         
+          
           <div class="card" style="width: 18rem;">
             <img src="../img/ofertas/Antitranspiranterexonaclinical.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -87,10 +92,11 @@
               <p class="card-text">110 Ml, Clinical. Hombre <span class="span">$210,00</span></p>
               <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-          </div>
+          </div> 
         </div>                 
-        </div>
-        <div class="d-flex justify-content-around my-5">
+       
+        <div class="d-flex justify-content-around my-5" id="media2">
+
           <div class="card" style="width: 18rem;">
             <img src="../img/ofertas/Detergentecif.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -98,14 +104,18 @@
               <p class="card-text">500 Ml, BioActive. <span class="span">$240,00</span></p>
               <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-          </div><div class="card" style="width: 18rem;">
+          </div>
+
+          <div class="card" style="width: 18rem;">
             <img src="../img/ofertas/Jabonliquidodove.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Jabon liquido Dove </h5>
-              <p class="card-text">220 Ml, Antibacterial <span class="span">$85.000,00</span></p>
+              <p class="card-text">220 Ml, Antibacterial <span class="span">$340,00</span></p>
               <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-          </div><div class="card" style="width: 18rem;">
+          </div>
+
+          <div class="card" style="width: 18rem;">
             <img src="../img/ofertas/Jabonliquidoskip.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Jabon Liquido Skip </h5>
@@ -114,7 +124,7 @@
             </div>
           </div>
         </div>
-        </div>
+      
         <!-- Carrousel -->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">

@@ -41,4 +41,31 @@ color: red;
 }
 
 /* Ofertas */
+/* navbar */
+#navbar a {
+    font-size: 18px;
+    font-weight:bolder;
+    color:gray;
+}
+#navbar button {
+    font-size: 18px;
+    font-weight:bolder;
+}
 
+#buton {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+/* media queries */
+@media screen and (max-width:576px) {
+    #media {
+       display: inline !important;
+   }
+   #media2 {
+    display: inline !important;
+}
+
+    
+}
