@@ -1,0 +1,30 @@
+@import 'navbar';
+@import 'footer';
+$buttonColor:red; 
+
+/* Index */
+/* Carrusel */
+.carrouselMargin {
+    margin: 10rem;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.span {
+    color: white;
+    background-color:#212529 ;
+}
+
+
+/* media queries */
+@media screen and (max-width:576px) {
+    #media {
+       display: inline !important;
+   }
+   #media2 {
+    display: inline !important;
+}
+}
+
+

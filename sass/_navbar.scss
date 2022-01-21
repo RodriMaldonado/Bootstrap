@@ -1,0 +1,17 @@
+/* NavBar */
+#navbar {
+    a {
+    font-size: 18px;
+    font-weight: bolder;
+    color: gray;
+}
+    & button {
+        font-size: 18px;
+        font-weight: bolder;
+}
+    & #buton {
+        background-color:$buttonColor;
+        color: white;
+        border-color:$buttonColor;
+    }
+}
