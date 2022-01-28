@@ -10,7 +10,7 @@
   font-weight: bolder;
 }
 
-#navbar #buton {
+#navbar #buton, #navbar #btnContacto {
   background-color: red;
   color: white;
   border-color: red;
@@ -63,6 +63,30 @@
 .span {
   color: white;
   background-color: #212529;
+}
+
+/* Contacto */
+/* extend */
+#buton, #btnContacto {
+  background-color: red;
+  color: white;
+  border-color: red;
+}
+
+#btnContacto {
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.contactanos {
+  color: gray;
+}
+
+.maps {
+  color: gray;
 }
 
 /* media queries */
