@@ -34,10 +34,10 @@
                   Categorias
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Alimentos</a></li>
-                  <li><a class="dropdown-item" href="#">Electrodomésticos</a></li>
+                  <li><a class="dropdown-item" href="./layouts/alimentos.html">Alimentos</a></li>
+                  <li><a class="dropdown-item" href="./layouts/electrodomesticos.html">Electrodomésticos</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Jardín</a></li>
+                  <li><a class="dropdown-item" href="./layouts/mascotas.html">Mascotas</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -52,38 +52,31 @@
         </div>
       </nav>
         <!-- Carousel up -->
-        <div id="carouselExampleIndicators" class="carousel slide carrouselMargin pb-3" data-bs-ride="carousel">
-
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-
-          <div class="carousel-inner">
-
-            <div class="carousel-item active" data-bs-interval="4000">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner my-4">
+            <div class="carousel-item active">
               <img src="./img/index/carousel1.webp" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item" data-bs-interval="4000">
+            <div class="carousel-item">
               <img src="./img/index/carousel2.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item" data-bs-interval="4000">
+            <div class="carousel-item">
               <img src="./img/index/carousel3webp.webp" class="d-block w-100" alt="...">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
         <!-- Cards -->
+        <h1 class="d-flex justify-content-center">Destacados del mes</h1>
         <div class="d-flex justify-content-around pb-5" id="media">
-
+        
         <div class="card" style="width: 18rem;">
           <img src="./img/index/Aire-Acondicionado-Bgh-Inverter-3430w-Fr-o-Calor-1-476358.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -111,7 +104,7 @@
           </div>
         </div>
       </div>  
-                   
+           <h1 class="d-flex justify-content-center">Destacados Electro y Jardin</h1>        
       <div class="d-flex justify-content-around pb-5" id="media2">
 
         <div class="card" style="width: 18rem;">
@@ -122,10 +115,10 @@
             <a href="#" class="btn text-white bg-dark">Comprar</a>
           </div>
         </div><div class="card" style="width: 18rem;">
-          <img src="./img/index/Lavarropas-Whirlpool-Wnq06abdwa-6k-1-478260.jpg" class="card-img-top" alt="...">
+          <img src="./img/index/Pileta-Estructural-6473lt-Con-Set-1-475740.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Lavarropas Whirpool </h5>
-            <p class="card-text">Blanco, 6K. <span class="span">$85.000,00</span></p>
+            <h5 class="card-title">Pileta BestWay Redonda </h5>
+            <p class="card-text">4062 Litros. <span class="span">$29.999,40</span></p>
             <a href="#" class="btn text-white bg-dark">Comprar</a>
           </div>
         </div><div class="card" style="width: 18rem;">
@@ -139,8 +132,8 @@
       </div>
       </div>
     <!-- Carousel down -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade carrouselMargin" data-bs-ride="carousel">
-      <div class="carousel-inner">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner my-4">
         <div class="carousel-item active">
           <img src="./img/footer1.gif" class="d-block w-100" alt="...">
         </div>
@@ -148,16 +141,19 @@
           <img src="./img/footer2.webp" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
     <hr>
+    
+
+
 <!-- Footer -->
 <div class="footer">
   <h4 class="h4">Nuestras redes:</h4>
@@ -170,12 +166,10 @@
 <footer class="py-3 my-4">
   <ul class="nav justify-content-center border-bottom pb-3 mb-3">
     <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
     <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
   </ul>
-  <p class="text-center text-muted">© 2021 Company, Inc</p>
+  <p class="text-center text-muted">© 2022 Company, Inc</p>
   <hr>
 </footer>
 
