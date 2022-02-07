@@ -10,7 +10,7 @@
   font-weight: bolder;
 }
 
-#navbar #buton, #navbar #btnContacto {
+#navbar #buton {
   background-color: red;
   color: white;
   border-color: red;
@@ -66,8 +66,7 @@
 }
 
 /* Contacto */
-/* extend */
-#buton, #btnContacto {
+#buton {
   background-color: red;
   color: white;
   border-color: red;
@@ -79,6 +78,9 @@
   margin-top: 10px;
   font-size: 18px;
   font-weight: bolder;
+  background-color: red;
+  color: white;
+  border-color: red;
 }
 
 .contactanos {
@@ -93,6 +95,9 @@
 @media screen and (max-width: 576px) {
   #media {
     display: inline !important;
+  }
+  .card {
+    display: inline;
   }
   #media2 {
     display: inline !important;
