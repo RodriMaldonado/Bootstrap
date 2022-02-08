@@ -1,5 +1,4 @@
 /* NavBar */
-
 #navbar a {
   font-size: 18px;
   font-weight: bolder;
@@ -106,6 +105,12 @@
   /* ofertas */
   .card-img-overlay {
     display: none;
+  }
+  #none {
+    display: none;
+  }
+  .iframe {
+    width: 350px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
