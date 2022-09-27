@@ -1,6 +1,33 @@
+/* Hover Navbar */
+.nav-link:hover {
+    color: red !important;
+}
+
+/* Titulos de las cards */
+
+#title1 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+}
+
+#title2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+#title3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+/* Boton barra de busqueda navbar */
 #button {
     border-color:gray;
     color:gray;
+}
+
+#button:hover {
+    background-color: red;
 }
 
 /* Footer */
