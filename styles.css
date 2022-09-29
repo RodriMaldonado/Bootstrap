@@ -20,6 +20,12 @@ font-size: 30px;
     font-size: 10px;
 }
 
+/* Parrafo de las cards */
+.card-text {
+    color: red;
+    font-family: fantasy;
+}
+
 /* Boton barra de busqueda navbar */
 #button {
     border-color:gray;
